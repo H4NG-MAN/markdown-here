@@ -7,6 +7,12 @@
     "file": "*",
     "glob": "^7.1.3",
     "markdown-it": "~3.1.0",
-    "metascript": "~1.0.0"
-  }
+    "metascript": "~1.0.0",
+    "snyk": "^1.316.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
